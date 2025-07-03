@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
-from core import run_trading_system
+from core.run_trading_system import run_trading_system
+
 import threading
 
 app = FastAPI()
