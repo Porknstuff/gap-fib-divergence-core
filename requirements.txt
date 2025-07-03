@@ -2,5 +2,5 @@ pandas
 yfinance
 numpy
 matplotlib
-# TA-Lib temporarily removed for deployment compatibility
+uvicorn
 
