@@ -13,3 +13,5 @@ def health():
 @app.on_event("startup")
 def start_trader():
     threading.Thread(target=run_trading_system, daemon=True).start()
+# Triggering commit box
+Fixed import path for run_trading_system
