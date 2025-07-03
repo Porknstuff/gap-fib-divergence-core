@@ -2,5 +2,6 @@ pandas
 yfinance
 numpy
 matplotlib
-uvicorn
+uvicorn[standard]
+
 
